@@ -7,6 +7,6 @@ import { Component } from '@angular/core';
   templateUrl: './completar-pedido.component.html',
   styleUrl: './completar-pedido.component.css'
 })
-export class CompletarPedidoComponent {
+export default class CompletarPedidoComponent {
 
 }

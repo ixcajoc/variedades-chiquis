@@ -7,6 +7,6 @@ import { Component } from '@angular/core';
   templateUrl: './detalle-rastreo.component.html',
   styleUrl: './detalle-rastreo.component.css'
 })
-export class DetalleRastreoComponent {
+export default class DetalleRastreoComponent {
 
 }

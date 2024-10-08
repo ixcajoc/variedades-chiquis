@@ -11,13 +11,13 @@ export const routes: Routes = [
     {
         path: 'completar-pedido',
         title: 'Coompletar Pedido',
-        loadComponent: () => import ('./components/detalle-producto/detalle-producto.component'),
+        loadComponent: () => import ('./components/completar-pedido/completar-pedido.component'),
         // canMatch:[authGuard],
     },
     {
-        path: 'Detalle-Rastreo',
+        path: 'detalle-rastreo',
         title: 'Tracking',
-        loadComponent: () => import ('./components/detalle-producto/detalle-producto.component'),
+        loadComponent: () => import ('./components/detalle-rastreo/detalle-rastreo.component'),
         // canMatch:[authGuard],
     },
 

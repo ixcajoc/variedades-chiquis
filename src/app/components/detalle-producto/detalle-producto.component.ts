@@ -21,7 +21,7 @@ import { Component } from '@angular/core';
 
           <div class="col-md-6 mt-2">
             <label for="inputCantidad" class="visually-hidden">Cantidad</label>
-            <input type="number" class="form-control" id="inputCantidad" placeholder="Cantidad">
+            <input type="number" min="1" class="form-control" id="inputCantidad" placeholder="Cantidad">
           </div>
           <div class="col-md-6 mt-2">
             <button type="submit" class="btn btn-primary mb-3" style="width: 100%;">Agregar al carrito</button>

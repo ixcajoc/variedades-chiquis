@@ -1,12 +1,19 @@
-import { Component } from '@angular/core';
+
+import {Component, inject} from '@angular/core';
+
 
 @Component({
   selector: 'app-detalle-rastreo',
   standalone: true,
-  imports: [],
+  imports: [ 
+  ],
   templateUrl: './detalle-rastreo.component.html',
-  styleUrl: './detalle-rastreo.component.css'
+  
 })
+
 export default class DetalleRastreoComponent {
+  
+
+
 
 }

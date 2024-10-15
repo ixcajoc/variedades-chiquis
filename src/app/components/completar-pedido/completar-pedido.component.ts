@@ -10,6 +10,7 @@ import {MatTableDataSource, MatTableModule} from '@angular/material/table';
 import {MatDatepickerModule} from '@angular/material/datepicker';
 import {provideNativeDateAdapter} from '@angular/material/core';
 
+import {MatRadioModule} from '@angular/material/radio';
 import {MatPaginator, MatPaginatorModule} from '@angular/material/paginator';
 import {MatSort, MatSortModule} from '@angular/material/sort';
 
@@ -49,6 +50,7 @@ const ELEMENT_DATA: PeriodicElement[] = [
     MatIconModule,
     MatTableModule,
     MatDatepickerModule,
+    MatRadioModule
   ],
   templateUrl: './completar-pedido.component.html',
   styleUrl: './completar-pedido.component.css',
